@@ -1,9 +1,6 @@
 CREATE DATABASE gestionSalas;
 use gestionSalas;
 
-GRANT ALL PRIVILEGES ON gestion.* TO 'alejandro'@'%' IDENTIFIED BY '12345';
-FLUSH PRIVILEGES;
-
 CREATE TABLE administrador(
     dniAdmin varchar(9) PRIMARY KEY,
     correo varchar(50) NOT NULL,
