@@ -40,4 +40,3 @@ ALTER TABLE salas add foreign key (dniAdmin) references administrador(dniAdmin);
 
 ALTER TABLE admin_salas add foreign key (dniAdmin) references administrador(dniAdmin);
 ALTER TABLE admin_salas add foreign key (idSala) references salas(idSala);
-
