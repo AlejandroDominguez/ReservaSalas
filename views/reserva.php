@@ -88,7 +88,6 @@
 <h1 style="text-align: center; margin-top: 0.5em">Salas</h1>
   <thead>
     <tr>
-      <th scope="col">idSala</th>
       <th scope="col">Capacidad</th>
       <th scope="col">disponibilidad</th>
       <th scope="col">Horario</th>
