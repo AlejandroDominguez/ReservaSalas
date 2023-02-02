@@ -1,4 +1,10 @@
 <?php
+
+/**
+    * @version 1.0
+    * @package views
+*/
+
   // Comprobamos si hemos pulsado el botón.
   if(isset($_POST["submit"])) {
 

@@ -1,4 +1,14 @@
 <?php
+
+/**
+    * @author Alejandro Domínguez Carreño
+    * @version 1.0
+    * @package General
+    * @Date: 2023-02-02
+    * @email: alejandrodominguezc7@gmail.com
+    * @Github: https://github.com/AlejandroDominguez
+ */ 
+
     // Iniciamos la session, para trabajar con ella.
     session_start();
     
@@ -36,7 +46,7 @@
     </nav>
 
     <section style="width: 100%; margin-top: 1em; text-align:center;">
-        <img style="width: 100%; height: 500px;" src="./img/portada.jpg" alt="">
+        <img style="width: 90%; height: 600px;" src="./img/portada.jpg" alt="">
     </section>
 
     <article style="display: flex; margin: 2em;">

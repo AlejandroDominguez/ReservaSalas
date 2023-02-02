@@ -1,4 +1,10 @@
 <?php
+
+/**
+    * @version 1.0
+    * @package views
+*/
+
     $config = include 'config.php';
     try{
         // Hacemos la conexión y ejecutamos la base de datos para crearla.

@@ -1,5 +1,10 @@
 <?php
 
+/**
+    * @version 1.0
+    * @package views
+*/
+
   $error = false;
   $config = include 'config.php';
 

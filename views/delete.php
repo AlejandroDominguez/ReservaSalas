@@ -1,4 +1,10 @@
 <?php
+
+/**
+    * @version 1.0
+    * @package views
+*/
+
   session_start();
 
   $error = false;

@@ -1,4 +1,10 @@
 <?php
+
+/**
+    * @version 1.0
+    * @package views
+*/
+
     // Configuramos nuestro enlace a la bd.
     return [
         'db' => [

@@ -1,4 +1,10 @@
 <?php
+
+/**
+    * @version 1.0
+    * @package views
+*/
+
     // Comprabmos que se le de al botón iniciar.
     if(isset($_POST["enviar"])) {
 
