@@ -109,7 +109,7 @@
           <td><?php echo codificarHTML($fila["disponibilidad"]); ?></td>
           <td><?php echo codificarHTML($fila["horarios"]); ?></td>
           <td><?php echo codificarHTML($fila["precio"]); ?></td>
-          <td><a href="<?php echo 'reservar.php?id='.$fila['idSala'] ?>" class="btn btn-primary mt-4">Reservar</a></td>
+          <td><a href="" class="btn btn-primary mt-4">Reservar</a></td>
       </tr>
 
     <?php
