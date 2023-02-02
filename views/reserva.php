@@ -104,7 +104,6 @@
       ?>
       
       <tr>
-          <td><?php echo codificarHTML($fila["idSala"]); ?></td>
           <td><?php echo codificarHTML($fila["capacidad"]); ?></td>
           <td><?php echo codificarHTML($fila["disponibilidad"]); ?></td>
           <td><?php echo codificarHTML($fila["horarios"]); ?></td>
