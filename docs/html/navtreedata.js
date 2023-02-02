@@ -37,6 +37,9 @@ var NAVTREE =
       [ "Autor ✒️", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md8", null ],
       [ "Documentación 📖", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md9", null ]
     ] ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+    ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [

@@ -1,6 +1,8 @@
+-- Creo y uso la base de datos.
 CREATE DATABASE gestionSalas;
 use gestionSalas;
 
+-- Creo las tablas administrador, salas, cliente y admin_salas.
 CREATE TABLE administrador(
     dniAdmin varchar(9) PRIMARY KEY,
     correo varchar(50) NOT NULL,
