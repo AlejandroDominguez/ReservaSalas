@@ -41,4 +41,4 @@ Alejandro Domínguez Carreño
 
 # Documentación 📖
 
-https://bookroom.herokuapp.com/
+https://bookroom.herokuapp.com/docs/html/index.html
