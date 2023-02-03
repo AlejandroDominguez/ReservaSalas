@@ -8,6 +8,7 @@
   session_start();
 
   include 'functions.php';
+  
   $error = false;
   $config = include 'config.php';
 

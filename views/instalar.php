@@ -6,6 +6,7 @@
 */
 
     $config = include 'config.php';
+    
     try{
         // Hacemos la conexión y ejecutamos la base de datos para crearla.
         $conexion = new PDO('mysql:host=' . $config['db']['host'],$config['db']['user'],$config['db']['pass'],$config['db']['options']);

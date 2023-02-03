@@ -56,8 +56,7 @@
 <form action="saveEdit.php" method="post" style="margin-top: 4.5em;">
   <div style="text-align: center;" class="form-row">
   <div style="text-align:center; margin:1em auto;" class="form-group col-md-6">
-    <label for="idSala">idSala</label>
-    <input type="text" name="idSala" class="form-control" id="idSala" value="<?php echo $salas["idSala"] ?>">
+    <input hidden type="text" name="idSala" class="form-control" id="idSala" value="<?php echo $salas["idSala"] ?>">
   </div>
   <div style="text-align:center; margin:1em auto;" class="form-group col-md-6">
   <input type="hidden" name="idSala" value="<?php echo $_GET["idSala"] ?>">
@@ -65,7 +64,6 @@
     <input type="text" name="capacidad" class="form-control" id="capacidad" value="<?php echo $salas["capacidad"] ?>">
   </div>
   <div style="text-align:center; margin:1em auto;" class="form-group col-md-6">
-    <label for="disponibilidad">Disponibilidad</label>
     <input type="text" name="disponibilidad" class="form-control" id="disponibilidad" value="<?php echo $salas["disponibilidad"] ?>">
   </div>
   <div style="text-align:center; margin:1em auto;" class="form-group col-md-6">
