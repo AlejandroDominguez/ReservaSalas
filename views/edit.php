@@ -64,7 +64,7 @@
     <input type="text" name="capacidad" class="form-control" id="capacidad" value="<?php echo $salas["capacidad"] ?>">
   </div>
   <div style="text-align:center; margin:1em auto;" class="form-group col-md-6">
-    <input type="text" name="disponibilidad" class="form-control" id="disponibilidad" value="<?php echo $salas["disponibilidad"] ?>">
+    <input hidden type="text" name="disponibilidad" class="form-control" id="disponibilidad" value="<?php echo $salas["disponibilidad"] ?>">
   </div>
   <div style="text-align:center; margin:1em auto;" class="form-group col-md-6">
     <label for="horarios">Horario</label>
