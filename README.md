@@ -9,6 +9,21 @@ Página web hecha con CRUD, En mi caso la página consiste en la reserva de Sala
 
 - Para empezar tendremos que clonar el repositorio https://github.com/AlejandroDominguez/ReservaSalas.git
 
+- Crearemos la base de datos, la tenemos en la siguiente ruta:
+data/bbdd.sql
+
+- Tenemos que crear el archivo ".env" dodne tendremos las variables de entorno para conectar la base de datos
+
+DB_HOST = localhost
+DB_USER = root
+DB_PASS = 
+DB_NAME = reservaSalas
+
+- Tendremos que activar tanto el apache como el mysql, y ejecutamos desde el directorio raíz.
+php -S localhost
+
+- Ejecutamos en el navegador lo siguiente:
+http://localhost
 
 # Uso de la aplicación ⚙️
 ## · Usuario 📌
